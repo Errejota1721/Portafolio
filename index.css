@@ -1,0 +1,617 @@
+
+@media only screen and ( max-width:640px) {
+
+body{
+background-color: #000;
+margin:auto;
+}
+
+
+#navbar{
+    position: fixed;
+}
+header{
+color: #FFF;
+font-family: 'monospace','consolas';
+font-size: 42px;
+font-weight: bold;
+animation-name: rainbow;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+margin-left: -55px;
+margin-right: 120px;
+}
+
+@keyframes rainbow {
+    0%{
+        color:yellow;
+    }
+    25%{
+        color:orange;
+    }    
+
+    50%{
+        color:red;
+    }
+
+    75%{
+        color:purple;
+    }
+
+    100%{
+        color:blue;
+    }
+}
+
+
+
+#navbar ul{
+display:flex;
+flex-direction: row;
+justify-content: center ;
+align-items:center;
+position: fixed;
+flex-wrap: wrap;
+background-color: #000;
+width:630px;
+border: solid 1px #FFF;
+margin-top:-20px;
+}
+
+#navbar li{
+
+    color: #FFF;
+    list-style: none;
+    padding-right: 30px;
+    margin-left: 10px;
+    font-family: 'tahoma', 'verdana';
+    border-right: solid 1px #FFF;
+}
+
+#navbar a{
+
+    color:#FFF;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+
+    color: #FF0000;
+}
+#welcome-section{
+
+    margin-bottom: 90px;
+}
+#welcome-section h1{
+
+padding-top: 60px;
+font-size: 25px;
+color: #fff;
+font-family: 'verdana', 'monospace';
+text-align: center;
+}
+
+#welcome-section p{
+
+    color: #FFF;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#projects h1{
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    background-color: #808080;
+    width: 300px;
+    margin:auto;
+    margin-bottom: 60px;
+    border-radius: 5px;
+    font-family: 'verdana','monospace';
+}
+
+
+.tribute_page{
+
+    background-image:url("img/pre.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height:300px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*.btn{
+    display: flex;
+flex-direction: row;
+justify-content:center;
+align-items: center;
+}*/
+
+button{
+
+text-align: center;
+font-family: verdana;
+font-size: 15px;
+background-color: rgba(0,0,0,1);
+color: #FFF;
+width: 150px;
+margin: auto;
+font-weight: bold;
+
+
+
+}
+button:hover, button a:hover{ 
+
+        transform: scale(1.2);
+        color:#FF0000;
+}
+button a{
+    text-decoration: none;
+    color: #FFF;
+    
+}
+
+    
+
+
+.landing_page{
+
+    background-image:url("img/pre2.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height:300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.form_page{
+
+    background-image:url("img/pre3.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height:300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tecnic_page{
+
+    background-image:url("img/pre4.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height:300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.project-tile{
+    display:flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    border: solid 1px #FFF;
+    border-radius: 10px;
+    }
+
+
+.contenedor{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#profile{
+    display: flex;
+    flex-direction: column;
+}
+
+#profile h1{
+
+    color: #FFF;
+    font-family: 'Verdana', 'tahoma';
+    text-align: center;
+}
+
+#profile p{
+
+    color:#FFF;
+    font-family: 'tahoma','verdana';
+    font-size:15px;
+    text-align: center;
+}
+
+#profile li{
+
+    list-style: none;
+    color: #FFF;
+    font-family: 'verdana','tahoma';
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#profile a{
+
+    color: #FFF;
+    text-decoration: none;
+}
+
+#profile a:hover{
+
+    color: #FF0000;
+}
+
+footer{
+
+    background-color: #808080;
+    font-family: 'consolas','monospace';
+    font-size: 10px;
+    text-align: center;
+}
+
+}
+
+
+@media only screen and (min-width:640px){
+
+
+
+
+body{margin:0;
+background-color: #000;
+color: #FFF;
+}
+
+#navbar{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: solid 1px #FFF;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px);
+    
+}
+
+#navbar header{
+    font-family: 'verdana','monospace';
+    font-size: 42px;
+    width: auto;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#navbar ul{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+#navbar li{
+ 
+    margin-left: 220px;
+    list-style: none;
+    font-family: 'tahoma','verdana';
+    font-weight: bold;
+}
+
+#navbar a{
+
+    color:#FFF;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+
+    color:#FF0000;
+}
+
+
+#welcome-section{
+
+    display: flex;
+    padding-top:150px;
+    flex-direction: column;
+    width:100%;
+    height: auto;
+    margin-bottom: 150px;
+   
+    
+
+}
+
+#welcome-section h1{
+
+font-family: 'verdana','monospace';
+font-size: 25px;
+padding-left: 60px;
+}
+
+
+#welcome-section p{
+    padding-left: 240px;
+    font-size: 25px;
+    border-bottom:solid 2px#FFF;
+    border-right: solid 2px #FFF;
+    width: 500px;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:  5px 4px 4px #FFF;
+}
+
+#project {
+display: flex;
+}
+
+
+#projects h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'tahoma','verdana';
+}
+
+.contenedor{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: #FFF;
+    padding: 40px 0;
+    border-radius: 30px;
+    margin-bottom: 100px;
+}
+
+.project-tile{
+border: solid 1px #000;
+border-radius: 10px;
+}
+.tribute_page, .form_page, .landing_page, .tecnic_page {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.tribute_page{
+    background-image:url("/img/pre.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height:400px;
+    border-radius: 10px;
+   
+}
+
+.tribute_page:hover{
+    transform: scale(1.1);
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/img/pre.png");
+    box-shadow: 0 5px 10px #000;
+}
+
+.tribute_page button{
+background-color:rgba(0,0,0,0.5);
+border: none;
+color: #000;
+
+}
+
+.tribute_page a{
+
+font-family: 'tahoma','verdana';
+font-size: 20px;
+font-weight:500;
+text-decoration: none;
+padding:200px 63px;
+color: #FFF;
+
+}
+
+.tribute_page a:hover{
+    color: #FF0000;
+}
+
+
+.landing_page{
+    background-image:url("/img/pre2.png");
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+}
+.landing_page:hover{
+    transform: scale(1.1);
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/img/pre2.png");
+    box-shadow: 0 5px 10px #000;
+}
+
+.landing_page a{
+    color: #FFF;
+    font-family: tahoma,verdana;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 200px 45px;
+}
+.landing_page a:hover{
+    color:#FF0000;
+}
+
+.landing_page button{
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    width: 250px;
+
+}
+
+
+.form_page{
+
+    background-image:url("/img/pre3.png");
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.form_page button{
+    background-color: transparent;
+    border: none;
+    
+    }
+
+    .form_page:hover{
+        transform: scale(1.1);
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/img/pre3.png");
+        box-shadow: 0 5px 10px #000;
+    }
+    
+    .form_page a{
+        color: #FFF;
+        font-family: tahoma,verdana;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 200px 59px;
+    }
+    .form_page a:hover{
+        color:#FF0000;
+    }
+    
+    .form_page button{
+        background-color: rgba(0,0,0,0.5);
+        border: none;
+        width: 250px;
+    }
+
+
+
+
+.tecnic_page{
+
+    background-image:url("/img/pre4.png");
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+}
+.tecnic_page button{
+    background-color: transparent;
+    border: none;
+    
+    }
+
+
+    .tecnic_page:hover{
+        transform: scale(1.1);
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/img/pre4.png");
+        box-shadow: 0 5px 10px #000;
+    }
+    
+    .tecnic_page a{
+        color: #FFF;
+        font-family: tahoma,verdana;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 200px 59px;
+    }
+    .tecnic_page a:hover{
+        color:#FF0000;
+    }
+    
+    .tecnic_page button{
+        background-color: rgba(0,0,0,0.5);
+        border: none;
+        width: 250px;
+}
+
+#profile{
+    margin-top: 200px;
+    background-color: #f5f5f5;
+}
+
+#profile h1{
+
+    text-align: center;
+    font-size:30px;
+    font-family: 'tahoma','verdana';
+    color: #000;
+ 
+}
+
+#profile p{
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: tahoma,verdana;
+    color:#000;
+    font-weight: bold;
+}
+
+#profile ul{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 50px 50px;
+    padding-bottom: 50px;
+}
+
+#profile li,a{
+    list-style: none;
+    color:#000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'consolas','monospace';
+}
+#profile li{
+
+    border: solid 1px #000;
+    padding:10px 20px;
+}
+
+#profile a:hover{
+
+    color:#FF0000;
+}
+
+}
+
+
+footer{background-color: #808080;
+text-align: center;
+font-family: 'consolas',monospace;
+color:#000;}

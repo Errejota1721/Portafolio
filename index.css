@@ -148,7 +148,7 @@ border-radius: 10px;
 
 
 .tribute_page{
-    background-image:url("/img/pre.png");
+    background-image:url("img/pre.png");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -160,7 +160,7 @@ border-radius: 10px;
 
 .tribute_page:hover{
     transform: scale(1.1);
-    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/img/pre.png");
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/pre.png");
     box-shadow: 0 5px 10px #000;
 }
 
@@ -188,7 +188,7 @@ color: #FFF;
 
 
 .landing_page{
-    background-image:url("/img/pre2.png");
+    background-image:url("img/pre2.png");
     background-position:top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -198,7 +198,7 @@ color: #FFF;
 }
 .landing_page:hover{
     transform: scale(1.1);
-    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/img/pre2.png");
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/pre2.png");
     box-shadow: 0 5px 10px #000;
 }
 
@@ -223,7 +223,7 @@ color: #FFF;
 
 .form_page{
 
-    background-image:url("/img/pre3.png");
+    background-image:url("img/pre3.png");
     background-position:top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -240,7 +240,7 @@ color: #FFF;
 
     .form_page:hover{
         transform: scale(1.1);
-        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/img/pre3.png");
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/pre3.png");
         box-shadow: 0 5px 10px #000;
     }
     
@@ -283,7 +283,7 @@ color: #FFF;
 
     .tecnic_page:hover{
         transform: scale(1.1);
-        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/img/pre4.png");
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/pre4.png");
         box-shadow: 0 5px 10px #000;
     }
     
